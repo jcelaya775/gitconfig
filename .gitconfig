@@ -8,6 +8,7 @@
     amn = !git add -A && git commit --amend --no-edit
     amm = !git add -A && git commit --amend --no-edit -m
     lg = log --graph --oneline --decorate
+    lgh = log --graph --oneline --decorate -10
     lgb = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches
     last = log -1 HEAD
     co = checkout
