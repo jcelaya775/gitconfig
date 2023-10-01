@@ -22,6 +22,8 @@
     sh = show
     sno = show --name-only
     s = status
+    st = stash
+    stl = stash list
     se = !git rev-list --all | xargs git grep -F
     do = !git diff origin/$(git symbolic-ref --short HEAD)
     don = !git diff --name-only origin/$(git symbolic-ref --short HEAD)
