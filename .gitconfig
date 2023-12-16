@@ -20,6 +20,7 @@
     cm = commit -m
     br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
     d = diff
+    ds = diff --staged
     dno = diff --name-only
     sh = show
     st = stash
